@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "GG",
+"productVersion": "0.1",
+"dataUrl": "GG_WebBuild.data.unityweb",
+"wasmCodeUrl": "GG_WebBuild.wasm.code.unityweb",
+"wasmFrameworkUrl": "GG_WebBuild.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.1f1"
+}
