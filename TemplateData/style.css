@@ -1,5 +1,5 @@
 .webgl-content * {border: 0; margin: 0; padding: 0}
-.webgl-content {position: absolute; top: 70%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content {position: absolute; top: 50%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
 .webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 .webgl-content .logo {background: url('progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
@@ -92,6 +92,9 @@ ul.imgs li{
 .slider input[type=radio]:nth-child(12):checked~.bullets>label:nth-child(12){
     background-color: #fff;
 }
+.slider input[type=radio]:nth-child(13):checked~.bullets>label:nth-child(13){
+    background-color: #fff;
+}
 .slider input[type=radio]:nth-child(1):checked~ul.imgs>li:nth-child(1){
     opacity: 1;
     transition: 1s;
@@ -148,6 +151,11 @@ ul.imgs li{
     z-index: 1;
 }
 .slider input[type=radio]:nth-child(12):checked~ul.imgs>li:nth-child(12){
+    opacity: 1;
+    transition: 1s;
+    z-index: 1;
+}
+.slider input[type=radio]:nth-child(13):checked~ul.imgs>li:nth-child(13){
     opacity: 1;
     transition: 1s;
     z-index: 1;

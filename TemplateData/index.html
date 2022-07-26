@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | GG</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/GG_WebBuild.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body bgcolor='black'>
+    <div style="text-align : center">
+      <img src="Title.png" width="10%">
+    </div>
+   
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 540px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title"></div>
+      </div>
+    </div>
+    
+    <div class="description">
+      <div style="text-align : center">
+        <img src="Description.png" width="100%"></div>
+    </div>
+    
+    <div class="slider">
+      <input type="radio" name="slide" id="slide1" checked>
+      <input type="radio" name="slide" id="slide2">
+      <input type="radio" name="slide" id="slide3">
+      <input type="radio" name="slide" id="slide4">
+      <input type="radio" name="slide" id="slide5">
+      <input type="radio" name="slide" id="slide6">
+      <input type="radio" name="slide" id="slide7">
+      <input type="radio" name="slide" id="slide8">
+      <input type="radio" name="slide" id="slide9">
+      <input type="radio" name="slide" id="slide10">
+      <input type="radio" name="slide" id="slide11">
+      <input type="radio" name="slide" id="slide12">
+      <ul id="imgholder" class="imgs">
+          <li><img src="./img/00.png" width="60%"></li>
+          <li><img src="./img/01.png" width="60%"></li>
+          <li><img src="./img/02.png" width="60%"></li>
+          <li><img src="./img/03.png" width="60%"></li>
+          <li><img src="./img/04.png" width="60%"></li>
+          <li><img src="./img/05.png" width="60%"></li>
+          <li><img src="./img/06.png" width="60%"></li>
+          <li><img src="./img/07.png" width="60%"></li>
+          <li><img src="./img/08.png" width="60%"></li>
+          <li><img src="./img/09.png" width="60%"></li>
+          <li><img src="./img/10.png" width="60%"></li>
+          <li><img src="./img/11.png" width="60%"></li>
+      </ul>
+      <div class="bullets">
+          <label for="slide1">&nbsp;</label>
+          <label for="slide2">&nbsp;</label>
+          <label for="slide3">&nbsp;</label>
+          <label for="slide4">&nbsp;</label>
+          <label for="slide5">&nbsp;</label>
+          <label for="slide6">&nbsp;</label>
+          <label for="slide7">&nbsp;</label>
+          <label for="slide8">&nbsp;</label>
+          <label for="slide9">&nbsp;</label>
+          <label for="slide10">&nbsp;</label>
+          <label for="slide11">&nbsp;</label>
+          <label for="slide12">&nbsp;</label>
+      </div>
+    </div>
+
+    <div class="contact" style="text-align : center">
+      <div class="mouseover">
+      <img src="Double.png" width="50%"></div>
+        <table style="padding: 80px">
+          <tr>
+            <td><img src="Kim.png" width="80%"></td><td><img src="Hwang.png" width="80%"></td>
+        </table>
+        <p style="margin-top: 380px; color: white;">Commercial use of our intellectual property without permission is forbidden. <br> All rights reseved.</p>
+    </div>
+    
+  </body>
+</html>
