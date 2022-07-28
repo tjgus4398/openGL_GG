@@ -19,7 +19,7 @@
 
 .description {position: absolute; top: 150%; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
 
-.slider {position: absolute; top: 1500px; left: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.slider {position: absolute; top: 1450px; left: 50%;}
 .slider{
     width: 100%;
     height: auto;
